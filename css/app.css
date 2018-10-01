@@ -1,0 +1,36 @@
+
+.topbar-center-logo {
+    background: hsl(29, 62%, 49%);
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  
+  .topbar-center-logo .menu {
+    background: hsl(29, 62%, 49%);
+  }
+  
+  .topbar-center-logo .menu a {
+    color: #fefefe;
+  }
+  
+  .topbar-center-logo .top-bar-center {
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+  }
+  
+  @media screen and (max-width: 39.9375em) {
+    .topbar-center-logo .top-bar-center {
+      display: none;
+    }
+  }
+  
+  .topbar-center-logo-mobile {
+    background: hsl(29, 62%, 49%);
+  }
+  
+  .topbar-center-logo-mobile .menu-icon {
+    vertical-align: text-top;
+  }
+  
+  
