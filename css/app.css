@@ -34,3 +34,18 @@
   }
   
   
+.fatfooter{
+  background: hsl(29, 62%, 49%);
+  padding: 10px;
+
+}
+
+.address {
+  text-decoration: unset;
+  color: #fefefe;
+}
+
+#menutitle{
+  margin-top: -70px;
+
+}
