@@ -49,3 +49,95 @@
   margin-top: -70px;
 
 }
+
+/* Main Page Code BEGIN - Debug */
+
+
+#logo {
+  width: 26%;
+}
+
+ol {
+  list-style: none;
+}
+
+#listone li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  left: 1000px;
+
+}
+
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+
+}
+
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+}
+
+.phone {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+#listtwo {
+  position: static;
+  margin: auto;
+  width: 50%;
+  padding: 50px;
+}
+
+#listtwo li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+#socialmedia li {
+  list-style: none;
+  display: inline;
+}
+
+#yelp {
+  width: 5%;
+}
+
+#fb {
+  width: 5%;
+}
+
+#twitter {
+  width: 5%;
+}
+
+#instagram {
+  width: 5%;
+}
+
+
+/* Main Page Code END - Debug */
