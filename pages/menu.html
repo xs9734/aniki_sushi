@@ -60,35 +60,38 @@
             </div>
         </div>
         <!--Navigation End-->
+
+        <!--Header Start-->
         <div class="grid x grid-padding-x">
           <div class="small-12 cell">
           <img src="http://placekitten.com/g/1200/300">
           <h1 class="text-center" id="menutitle"> MENU</h1>
           </div>
         </div>
+        <!--Header End-->
 
         <!--Menu of Food Start-->
         <div class="grid-x grid-padding-x">
-          <div class="small-6 cell">
-            <ul class="vertical dropdown menu foodmenu" data-dropdown-menu>
+          <div class="small-12 cell">
+            <ul class="vertical accordion menu foodmenu" data-accordion-menu>
             <li>
               <a href="#">Appetizers</a>
               <ul class="vertical menu nested">
-                <li><a href="#">Kitchen</a></li>
-                <li><a href="#">Sushi Bar</a></li>
-                <li><a href="#">Side Orders</a></li>
+                <li><a href="#kitchen_appetizers">Kitchen</a></li>
+                <li><a href="#sushi_appetizers">Sushi Bar</a></li>
+                <li><a href="#side_orders">Side Orders</a></li>
                 <!-- ... -->
               </ul>
             </li>
             <li>
                 <a href="#">Entrees</a>
                 <ul class="vertical menu nested">
-                    <li><a href="#">Teriyaki</a></li>
-                    <li><a href="#">Katsu</a></li>
-                    <li><a href="#">Udon</a></li>
-                    <li><a href="#">Bento Box</a></li>
-                    <li><a href="#">Lunch Bowl</a></li>
-                    <li><a href="#">Kid's Menu</a></li>
+                    <li><a href="#teriyaki">Teriyaki</a></li>
+                    <li><a href="#katsu">Katsu</a></li>
+                    <li><a href="#udon">Udon</a></li>
+                    <li><a href="#tempura">Bento Box</a></li>
+                    <li><a href="#bento_lunch">Lunch Bowl</a></li>
+                    <li><a href="#bento_dinner">Kid's Menu</a></li>
                   <!-- ... -->
                 </ul>
               </li>
@@ -119,10 +122,398 @@
         </div>
         <!--Menu of Food End-->
 
+        <!-- Kitchen Appetizers-->
         <div class="grid-x grid-padding-x">
-
-
+            <div class="small-12 cell">
+              <table class="stack" id="kitchen_appetizers">
+                <thead>
+                  <tr>
+                    <th width="1000">Kitchen Appetizers</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Edamame - Regular</td>
+                    <td>3.45</td>
+                  </tr>
+                  <tr>
+                    <td>Edamame - Spicy Garlic</td>
+                    <td>5.95</td>
+                  </tr>
+                  <tr>
+                    <td>Edamame - Cool Zinger</td>
+                    <td>5.95</td>
+                  </tr>
+                  <tr>
+                    <td>Gyoza</td>
+                    <td>5.95</td>
+                  </tr>
+                  <tr>
+                    <td>Agedashi Tofu</td>
+                    <td>5.95</td>
+                  </tr>
+                  <tr>
+                    <td>Fried Calamari</td>
+                    <td>8.95</td>
+                  </tr>
+                  <tr>
+                    <td>Soft Shell Crab</td>
+                    <td>7.95</td>
+                  </tr>
+                  <tr>
+                    <td>Yakitori</td>
+                    <td>6.45</td>
+                  </tr>
+                  <tr>
+                    <td>Hamachi Kama</td>
+                    <td>12.45</td>
+                  </tr>
+                  <tr>
+                    <td>Salmon Kama</td>
+                    <td>7.45</td>
+                  </tr>
+                  <tr>
+                    <td>Shrimp Tempura</td>
+                    <td>6.95</td>
+                  </tr>
+                  <tr>
+                    <td>Vegetable Tempura</td>
+                    <td>5.95</td>
+                  </tr>
+                  <tr>
+                    <td>Shrimp &amp; Vegetable Tempura</td>
+                    <td>7.95</td>
+                  </tr>
+                  <tr>
+                    <td>Aniki's Double Delight</td>
+                    <td>12.95</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
         </div>
+
+        <!-- Sushi Appetizers-->
+        <div class="grid-x grid-padding-x">
+            <div class="small-12 cell">
+              <table class="stack" id="sushi_appetizers">
+                <thead>
+                  <tr>
+                    <th width="1000">Sushi Bar Appetizers</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Seaweed Salad</td>
+                    <td>4.95</td>
+                  </tr>
+                  <tr>
+                    <td>Spicy Crunch Crab Salad</td>
+                    <td>8.95</td>
+                  </tr>
+                  <tr>
+                    <td>Tako Sunomono</td>
+                    <td>6.95</td>
+                  </tr>
+                  <tr>
+                    <td>Ebi Sunomono</td>
+                    <td>6.95</td>
+                  </tr>
+                  <tr>
+                    <td>Josh's Poke Bowl</td>
+                    <td>13.95</td>
+                  </tr>
+                  <tr>
+                    <td>Kim's Poke Trio</td>
+                    <td>20.95</td>
+                  </tr>
+                  <tr>
+                    <td>Rose's Seafood Salad</td>
+                    <td>14.95</td>
+                  </tr>
+                  <tr>
+                    <td>Baked Mussels (4pc)</td>
+                    <td>8.45</td>
+                  </tr>
+                  <tr>
+                    <td>Jalape&ntilde;o Bomb</td>
+                    <td>7.45</td>
+                  </tr>
+                  <tr>
+                    <td>Cheeky Monkey</td>
+                    <td>7.95</td>
+                  </tr>
+                  <tr>
+                    <td>Japanese Nachos</td>
+                    <td>7.45</td>
+                  </tr>
+                  <tr>
+                    <td>Sea Steak</td>
+                    <td>12.45</td>
+                  </tr>
+                  <tr>
+                    <td>Pepper Fin</td>
+                    <td>12.45</td>
+                  </tr>
+                  <tr>
+                    <td>Spring Salmon</td>
+                    <td>12.45</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+
+        <!--Side Orders-->
+        <div class="grid-x grid-padding-x">
+            <div class="small-12 cell">
+              <table class="stack" id="side_orders">
+                <thead>
+                  <tr>
+                    <th width="1000">Side Orders</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Rice</td>
+                    <td>2.95</td>
+                  </tr>
+                  <tr>
+                    <td>Sushi Rice</td>
+                    <td>3.95</td>
+                  </tr>
+                  <tr>
+                    <td>Miso Soup</td>
+                    <td>1.95</td>
+                  </tr>
+                  <tr>
+                    <td>Green Salad</td>
+                    <td>2.50</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+
+        <!--Teriyaki-->
+        <div class="grid-x grid-padding-x">
+            <div class="small-12 cell">
+              <table class="stack" id="teriyaki">
+                <thead>
+                  <tr>
+                    <th width="1000">Teriyaki</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chicken Teriyaki</td>
+                        <td>10.95 | 13.45</td>
+                      </tr>
+                  <tr>
+                    <td>Beef Teriyaki</td>
+                    <td>12.95 | 15.95</td>
+                  </tr>
+                  <tr>
+                    <td>Salmon Teriyaki</td>
+                    <td>12.95 | 15.95</td>
+                  </tr>
+                  <tr>
+                    <td>Saba Teriyaki</td>
+                    <td>11.95 | 14.95</td>
+                  </tr>
+                  <tr>
+                    <td>Spicy BBQ Chicken</td>
+                    <td>11.95 | 14.95</td>
+                  </tr>
+                  <tr>
+                    <td>Beef Bulgogi</td>
+                    <td>17.95 | 19.95</td>
+                  </tr>
+                  <tr>
+                    <td>Korean Short Ribs</td>
+                    <td>26.95 | 26.95</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+
+        <!--Katsu-->
+        <div class="grid-x grid-padding-x">
+            <div class="small-12 cell">
+              <table class="stack" id="katsu">
+                <thead>
+                  <tr>
+                    <th width="1000">Katsu</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Chicken Katsu</td>
+                    <td>11.95 | 14.45</td>
+                  </tr>
+                  <tr>
+                    <td>Pork Ton Katsu</td>
+                    <td>12.95 | 15.95</td>
+                  </tr>
+                  <tr>
+                    <td>Beef Katsu</td>
+                    <td>13.95 | 16.95</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+
+        <!--Udon-->
+        <div class="grid-x grid-padding-x">
+            <div class="small-12 cell">
+              <table class="stack" id="udon">
+                <thead>
+                  <tr>
+                    <th width="1000">Udon</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Vegetable Udon</td>
+                    <td>7.95</td>
+                  </tr>
+                  <tr>
+                    <td>Chicken Udon</td>
+                    <td>10.95</td>
+                  </tr>
+                  <tr>
+                    <td>Beef Udon</td>
+                    <td>11.95</td>
+                  </tr>
+                  <tr>
+                    <td>Tempura Udon</td>
+                    <td>12.95</td>
+                  </tr>
+                  <tr>
+                    <td>Seafood Udon</td>
+                    <td>15.95</td>
+                  </tr>
+                  <tr>
+                    <td>Nabeyaki Udon</td>
+                    <td>13.95</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+
+        <!--Tempura-->
+        <div class="grid-x grid-padding-x">
+            <div class="small-12 cell">
+              <table class="stack" id="tempura">
+                <thead>
+                  <tr>
+                    <th width="1000">Tempura</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Shrimp Tempura</td>
+                    <td>10.45 | 13.45</td>
+                  </tr>
+                  <tr>
+                    <td>Vegetable Tempura</td>
+                    <td>9.95 | 12.45</td>
+                  </tr>
+                  <tr>
+                    <td>Mixed Tempura</td>
+                    <td>10.45 | 14.45</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+
+        <!--Bento Lunch-->
+        <div class="grid-x grid-padding-x">
+            <div class="small-12 cell">
+              <table class="stack" id="bento_lunch">
+                <thead>
+                  <tr>
+                    <th width="1000">Bento Lunch Specials</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Salmon Teriyaki</td>
+                    <td>12.95</td>
+                  </tr>
+                  <tr>
+                    <td>Saba Shioyaki</td>
+                    <td>12.95</td>
+                  </tr>
+                  <tr>
+                    <td>Gyoza (3pcs)</td>
+                    <td>12.95</td>
+                  </tr>
+                  <tr>
+                    <td>Tempura (3pcs)</td>
+                    <td>12.95</td>
+                  </tr>
+                  <tr>
+                    <td>Sashimi (3pcs)</td>
+                    <td>12.95</td>
+                  </tr>
+                  <tr>
+                    <td>California Roll (4pcs)</td>
+                    <td>12.95</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+
+        <!--Bento Dinner-->
+        <div class="grid-x grid-padding-x">
+            <div class="small-12 cell">
+              <table class="stack" id="bento_dinner" >
+                <thead>
+                  <tr>
+                    <th width="1000">Bento Dinner Specials</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Saba Shioyaki &amp; Tempura</td>
+                    <td>18.95</td>
+                  </tr>
+                  <tr>
+                    <td>Gyoza &amp; Tempura</td>
+                    <td>18.95</td>
+                  </tr>
+                  <tr>
+                    <td>Sashimi &amp; Tempura</td>
+                    <td>18.95</td>
+                  </tr>
+                  <tr>
+                    <td>California Roll &amp; Gyoza</td>
+                    <td>18.95</td>
+                  </tr>
+                  <tr>
+                    <td>Tonkatsu &amp; California Roll</td>
+                    <td>18.95</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+
         <footer class="large-12 cell fatfooter">
     <ul class="simple menu align-center">
         <li><a href="https://www.instagram.com/anikissushi/" target="_blank"><img src="../images/social/insta.svg" height="50px" width="50px"></a></li>

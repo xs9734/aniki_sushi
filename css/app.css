@@ -1,3 +1,10 @@
+  
+  @media screen and (max-width: 1020px) {
+    thead{
+      display:table-header-group;
+    }
+  }
+
 
 .topbar-center-logo {
     background: #000033;
@@ -34,9 +41,22 @@
   }
   
 .foodmenu{
-  background: black;
-  color:white;
+  background:  #000033;
   }
+
+.foodmenu a:link{
+  background: #000033;
+  color: white;
+}
+.foodmenu a:visited{
+  color: white;
+}
+.foodmenu a:hover{
+  color: grey;
+}
+.foodmenu a:active{
+  color: white;
+}
 
 .fatfooter{
   background: #000033;
@@ -50,7 +70,10 @@
 }
 
 #menutitle{
-  margin-top: -70px;
+  background: #000033;
+  color: #fefefe;
+  padding:0;
+  margin:0;
 
 }
 
