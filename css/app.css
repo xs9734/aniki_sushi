@@ -1,12 +1,12 @@
 
 .topbar-center-logo {
-    background: hsl(29, 62%, 49%);
+    background: #000033;
     padding-top:20px;
     padding-bottom:20px;
   }
   
   .topbar-center-logo .menu {
-    background: hsl(29, 62%, 49%);
+    background: #000033;
   }
   
   .topbar-center-logo .menu a {
@@ -26,16 +26,20 @@
   }
   
   .topbar-center-logo-mobile {
-    background: hsl(29, 62%, 49%);
+    background: #000033;
   }
   
   .topbar-center-logo-mobile .menu-icon {
     vertical-align: text-top;
   }
   
-  
+.foodmenu{
+  background: black;
+  color:white;
+  }
+
 .fatfooter{
-  background: hsl(29, 62%, 49%);
+  background: #000033;
   padding: 10px;
 
 }
@@ -49,6 +53,10 @@
   margin-top: -70px;
 
 }
+
+
+
+
 
 /* Main Page Code BEGIN - Debug */
 
