@@ -180,5 +180,9 @@ h3 {
   width: 5%;
 }
 
+#googlemap {
+  text-align: center;
+  padding-rightL 50px;
+}
 
 /* Main Page Code END - Debug */
