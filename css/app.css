@@ -194,10 +194,11 @@ h3 {
 
 /* staff bio columns */
 .column {
-    position: absolute;
+    float: center;
     width: 33.3%;
-    margin: 0 auto;
+    margin-bottom: 16px;
     padding: 8px 8px;
+    text-align: center;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
