@@ -186,12 +186,15 @@ h3 {
 }
 
 /* staff bio columns */
+#staff bio {
+  alignment: center;
+}
+
 .column {
     float: left;
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
-    alignment: center;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
