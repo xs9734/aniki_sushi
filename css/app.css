@@ -192,7 +192,10 @@ h3 {
   padding-right: 50px;
 }
 
-/* staff bio columns */
+#staff bio {
+  alignment: center;
+}
+
 .column {
     float: left;
     width: 33.3%;
@@ -215,7 +218,7 @@ h3 {
 
 /* Some left and right padding inside the container */
 .container {
-    padding: 16px 0px;
+    padding: 16px 16px;
 }
 
 /* Clear floats */
