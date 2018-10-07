@@ -202,6 +202,10 @@ h3 {
 >>>>>>> 14d5158f9e1ee463280fbbbe985b1cdc16da890c
 
 /* BIO COLUMNS */
+.row {
+    text-align:center;
+}
+
 .column {
     width: 25%;
     padding: 0px;
@@ -219,9 +223,11 @@ h3 {
 /* Some left and right padding inside the container */
 .container {
     padding: 0px;
+    text-align: center;
 }
 
 
 .title {
     color: grey;
+    text-align: center;
 }
