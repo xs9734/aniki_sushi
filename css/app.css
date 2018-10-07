@@ -7,10 +7,17 @@
   #backtotop{
     background:#000033;
     position:fixed;
-    top:95%;
-    left:50%;
-    border-radius: 100%;
+    top:97%;
+    left:40%;
+    width:25%;
   }
+
+  #backtotop p a:link,a:visited,a:active,a:hover{
+    text-decoration: unset;
+    color:#fefefe;
+  }
+
+
 
 .topbar-center-logo {
     background: #000033;
